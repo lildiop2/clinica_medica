@@ -5,7 +5,7 @@
 
         <v-parallax
     dark
-    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+    src="../assets/background-radial.jpg"
   >
     <v-row
       align="center"

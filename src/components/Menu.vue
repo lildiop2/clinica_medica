@@ -1,8 +1,7 @@
 <template>
   <v-bottom-navigation
      v-model="value"
-    :background-color="color"
-  
+  id="cabecalho"
   >
   <h1 id="titulo"><v-icon>mdi-hospital-building</v-icon> UAI CLÍNICA MÉDICA</h1>
     <v-btn>
@@ -79,6 +78,10 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   color: #2c3e50;
+}
+#cabecalho{
+  background-image: url("../assets/background.png");
+  background-size: cover;
 }
 
 </style>

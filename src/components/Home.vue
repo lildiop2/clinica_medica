@@ -1,7 +1,7 @@
 <template>
-<div>
+<div id="corpo">
     <Menu/>
-    <v-spacer></v-spacer>
+    <!-- <v-spacer></v-spacer> -->
 
 <v-carousel
     cycle
@@ -32,11 +32,13 @@
             Descrição
           </v-card-title>
           <v-card-text class="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacus nibh, finibus et efficitur a, dapibus vel elit. Maecenas quis dapibus tortor. Vivamus feugiat ullamcorper dolor, in aliquam lacus commodo ac. Aenean non lacinia urna. Duis volutpat commodo iaculis. Etiam interdum pulvinar eros, consequat porta purus rutrum sed. Duis cursus lacus non eros euismod mollis. Fusce et urna erat. Donec sed commodo elit, eu commodo nisl. Quisque et nulla in elit interdum cursus eget et lacus. Aenean volutpat turpis eu felis lobortis ornare. Curabitur ut odio rhoncus, mattis lectus ut, viverra ante.
+            <p>A UAI Clínica-Médica Atenção a Saúde nasceu com o objetivo de prestar um serviço de qualidade, especializado no atendimento ao cliente no domicílio. A partir de uma demanda cada vez mais constante pela procura de outros serviços, surgiu então a Clínica UAI Clínica Médica.</p>
 
-          Duis at pharetra tortor. Suspendisse vel viverra dui. Sed vestibulum eget ex at feugiat. Nam scelerisque egestas tincidunt. Vivamus ante est, pharetra id rutrum eget, laoreet id orci. Etiam sodales sapien est, sit amet pellentesque risus lobortis in. Donec tincidunt id arcu at viverra. Morbi tempus eu leo ac molestie. Quisque malesuada turpis sed nulla fermentum rhoncus. Duis lacinia elit eu odio pellentesque, et cursus arcu hendrerit.
+            <p>Com uma estrutura adequada, oferecemos consultas médicas em várias especialidades, serviços de fisioterapia e pilates, nutrição, psicologia, entre outros.</p>
 
-          Sed eget tellus sit amet justo placerat ultrices. Curabitur iaculis lacus et vestibulum finibus. Quisque condimentum sapien sed eros dictum condimentum. Etiam semper urna ut cursus faucibus. Etiam tristique lacus aliquam molestie consectetur. Praesent ut arcu vel odio egestas finibus. Phasellus at feugiat eros. Mauris a lorem lobortis magna dictum ullamcorper eu sit amet sem.
+            <p>Nosso maior diferencial consiste em prestar um atendimento humanizado, individualizado, com qualidade e respeito aos clientes, promovendo o bem-estar do paciente e a tranquilidade dos familiares.</p>
+
+            <p>Dispomos de uma equipe multidisciplinar especializada para atender, além de uma equipe administrativa capaz de apresentar soluções rápidas e efetivas para cada necessidade de nossos parceiros, clientes, pacientes e equipes.</p>
           </v-card-text>
           </v-card>
 
@@ -55,12 +57,10 @@
                     Missão
                   </v-card-title>
                   <v-card-text class="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacus nibh, finibus et efficitur a, dapibus vel elit. Maecenas quis dapibus tortor. Vivamus feugiat ullamcorper dolor, in aliquam lacus commodo ac. Aenean non lacinia urna. Duis volutpat commodo iaculis. Etiam interdum pulvinar eros, consequat porta purus rutrum sed. Duis cursus lacus non eros euismod mollis. Fusce et urna erat. Donec sed commodo elit, eu commodo nisl. Quisque et nulla in elit interdum cursus eget et lacus. Aenean volutpat turpis eu felis lobortis ornare. Curabitur ut odio rhoncus, mattis lectus ut, viverra ante.
-
-          Duis at pharetra tortor. Suspendisse vel viverra dui. Sed vestibulum eget ex at feugiat. Nam scelerisque egestas tincidunt. Vivamus ante est, pharetra id rutrum eget, laoreet id orci. Etiam sodales sapien est, sit amet pellentesque risus lobortis in. Donec tincidunt id arcu at viverra. Morbi tempus eu leo ac molestie. Quisque malesuada turpis sed nulla fermentum rhoncus. Duis lacinia elit eu odio pellentesque, et cursus arcu hendrerit.
-
-          Sed eget tellus sit amet justo placerat ultrices. Curabitur iaculis lacus et vestibulum finibus. Quisque condimentum sapien sed eros dictum condimentum. Etiam semper urna ut cursus faucibus. Etiam tristique lacus aliquam molestie consectetur. Praesent ut arcu vel odio egestas finibus. Phasellus at feugiat eros. Mauris a lorem lobortis magna dictum ullamcorper eu sit amet sem.
-          </v-card-text>
+                    <p>
+                      Cuidar, com excelência, da saúde dos nossos clientes em todas as etapas da vida, proporcionando-lhes uma atenção individualizada, com profissionais componentes.</p>
+                    <p>Ser reconhecida pela excelência no atendimento de nossos clientes e na gestão de nossos colaboradores.</p>
+                 </v-card-text>
                   
                   </v-card>
 
@@ -76,12 +76,16 @@
                     Valores
                   </v-card-title>
                   <v-card-text class="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacus nibh, finibus et efficitur a, dapibus vel elit. Maecenas quis dapibus tortor. Vivamus feugiat ullamcorper dolor, in aliquam lacus commodo ac. Aenean non lacinia urna. Duis volutpat commodo iaculis. Etiam interdum pulvinar eros, consequat porta purus rutrum sed. Duis cursus lacus non eros euismod mollis. Fusce et urna erat. Donec sed commodo elit, eu commodo nisl. Quisque et nulla in elit interdum cursus eget et lacus. Aenean volutpat turpis eu felis lobortis ornare. Curabitur ut odio rhoncus, mattis lectus ut, viverra ante.
 
-          Duis at pharetra tortor. Suspendisse vel viverra dui. Sed vestibulum eget ex at feugiat. Nam scelerisque egestas tincidunt. Vivamus ante est, pharetra id rutrum eget, laoreet id orci. Etiam sodales sapien est, sit amet pellentesque risus lobortis in. Donec tincidunt id arcu at viverra. Morbi tempus eu leo ac molestie. Quisque malesuada turpis sed nulla fermentum rhoncus. Duis lacinia elit eu odio pellentesque, et cursus arcu hendrerit.
-
-          Sed eget tellus sit amet justo placerat ultrices. Curabitur iaculis lacus et vestibulum finibus. Quisque condimentum sapien sed eros dictum condimentum. Etiam semper urna ut cursus faucibus. Etiam tristique lacus aliquam molestie consectetur. Praesent ut arcu vel odio egestas finibus. Phasellus at feugiat eros. Mauris a lorem lobortis magna dictum ullamcorper eu sit amet sem.
-          </v-card-text>
+                        <ul>
+                        <li>Confiança</li>
+                        <li>Ética</li>
+                        <li>Integridade</li>
+                        <li>Transparência</li>
+                        <li>Comprometimento</li>
+                        <li>Responsabilidade</li>
+                        </ul>
+                  </v-card-text>
                   
                   </v-card>
 
@@ -128,5 +132,8 @@ export default  {
 
 
 <style scoped>
-
+#corpo{
+  background-image: url("../assets/background-radial.jpg");
+   background-size: cover;
+}
 </style>
