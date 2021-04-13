@@ -2,18 +2,20 @@
   <v-footer
     dark
     padless
+  
   >
     <v-card
       flat
       tile
-      class="indigo lighten-1 white--text text-center"
+      class="indigo lighten-1 black--text text-center"
       min-width="100%"
+      id="pe"
     >
       <v-card-text>
         <v-btn
           v-for="icon in icons"
           :key="icon"
-          class="mx-4 white--text"
+          class="mx-4 black--text"
           icon
         >
           <v-icon size="24px">
@@ -22,7 +24,7 @@
         </v-btn>
       </v-card-text>
 
-      <v-card-text class="white--text pt-0">
+      <v-card-text class="black--text pt-0">
                     <p>
                     Centro Federal de Educação Tecnológica de Minas Gerais - CEFET-MG
                     Av. Amazonas, 5.253, Nova Suiça, Belo Horizonte, MG, Brasil. CEP: 30.421-169
@@ -30,9 +32,9 @@
                     </p>
       </v-card-text>
 
-      <v-divider></v-divider>
+      <!-- <v-divider></v-divider> -->
 
-      <v-card-text class="white--text">
+      <v-card-text class="black--text">
         {{ new Date().getFullYear() }} — <strong>Uai Clínica Médica</strong>
       </v-card-text>
     </v-card>
@@ -53,5 +55,10 @@
 </script>
 
 <style scoped>
+#pe{
+  background-image: url("../assets/background.png");
+  background-size: cover;
 
+  
+}
 </style>

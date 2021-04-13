@@ -1,7 +1,7 @@
 <template>
-<div>
+<div id="corpo-galeria">
 <Menu></Menu>
-    <v-spacer></v-spacer>
+    <!-- <v-spacer></v-spacer> -->
 
   <v-card
     class="mx-auto"
@@ -13,6 +13,7 @@
           v-for="card in cards"
           :key="card.title"
           :cols="card.flex"
+          class="plano-de-fundo"
         >
           <v-card>
             <v-img
@@ -59,5 +60,12 @@ import Footer from './Footer'
 
 
 <style scoped>
-
+#corpo-galeria{
+  background-image: url("../assets/background-radial.jpg");
+  background-size: cover;
+}
+.plano-de-fundo{
+  background-image: url("../assets/background-radial.jpg");
+  background-size: cover;
+}
 </style>

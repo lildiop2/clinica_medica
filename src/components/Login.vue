@@ -5,7 +5,7 @@
        
    <v-parallax
     dark
-    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+    src="../assets/background-radial.jpg"
   >
     <v-row
       align="center"
@@ -25,7 +25,7 @@
 
     <v-toolbar
       flat
-      color="indigo"
+      color="green"
     >
       <v-icon>mdi-account</v-icon>
       <v-toolbar-title class="font-weight-light">
